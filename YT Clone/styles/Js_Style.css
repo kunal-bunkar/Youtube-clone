@@ -1,0 +1,33 @@
+.side_hider{
+    width: 3rem;
+}
+.side_hider a p{
+    /* width: 7rem; */
+    display: none;
+}
+.side_hider .mid{
+    /* width: 7rem; */
+    display: none;
+}
+.side_hider .lower{
+    /* width: 7rem; */
+    display: none;
+}
+.expand_container{
+    /* border: solid red; */
+    width: 100vw;
+    margin-left: 3%;
+    flex-wrap: wrap;
+}
+.expand_container .video{
+    width: 20rem;
+}
+
+
+.change_button {
+    background-color: aqua;
+    width: 5rem;
+}
+.change_button .like{
+    width: 5px;
+}
