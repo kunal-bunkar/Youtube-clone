@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="logo-text">
+                <div class="bot-logo"><span class="material-symbols-outlined">
+                        robot_2
+                    </span></div>
+                <h3>AI ChatBot</h3>
+            </div>
+        </div>
+        <!-- chat_box -->
+        <div class="chat">
+            <div class="text bot-msg">
+                <div class="bot-msg-log
+                "><span class="material-symbols-outlined">
+                        robot_2
+                    </span></div>
+
+                <div class="msg">Hello!! 👋 <br> How can I help you?</div>
+            </div>
+        </div>
+        <!-- input_text -->
+        <div class="input">
+            <div class="text-area">
+                <form action="#" class="chat_form">
+                    <textarea name="" id="" placeholder="Message..." class="msg-input" required></textarea>
+
+                    <div class="chat-control">
+                        <button type="button" id="emoji-picker" class="material-symbols-outlined">
+                            sentiment_satisfied
+                        </button>
+                        <div class="file-input-wrap">
+                            <input type="file" accept="images/*" id="file-input" hidden>
+                        </div>
+                        <button type="button" id="file-uplode" class="material-symbols-outlined">attach_file</button>
+                        <button type="submit" id="send-msg" class="material-symbols-outlined">
+                            send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
